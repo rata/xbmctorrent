@@ -12,6 +12,7 @@
         <setting label="BitTorrent" type="lsep"/>
         <setting id="magnet_boost" label="Magnet Booster" type="bool" default="true" />
         <setting id="max_download_rate" label="Max Download Rate (kB/s)" type="number" default="" />
+        <setting id="pcnt_complete_to_play" label="Play when % is downloaded" type="number" default="0.5" />
         <setting id="encryption" label="Encryption" type="enum" values="Forced|Enabled|Disabled" default="1" />
     </category>
     <category label="Advanced">

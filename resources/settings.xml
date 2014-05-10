@@ -4,6 +4,7 @@
         <setting label="General" type="lsep" />
         <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable" />
         <setting id="keep_files" type="bool" label="Keep files after playback/download stops" default="false" />
+        <setting id="auto_subs" label="Always ask to download subtitles" type="bool" default="false" />
 
         <setting label="Content" type="lsep"/>
         <setting id="immunicity" type="bool" label="Auto-unblocking via Immunicity" default="false" />

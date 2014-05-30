@@ -94,6 +94,12 @@ XBMC. You can increase the timeout as documented
 note that increasing the timeout won't make your network faster, you just will
 wait more time before the torrent is interrupted.
 
+#### Browsing EZTV is very slow, can I do something about it ?
+Yes! You can install python-lxml and that might make it faster if the slowdown
+is when parsing some XML files (that often is the case, specially on a raspberry
+pi or some small hardware). If you just install it, it will be used
+automatically.
+
 #### How can I use the Play-to-XBMC feature?
 First of all, install [Play-to-XBMC](https://chrome.google.com/webstore/detail/play-to-xbmc/fncjhcjfnnooidlkijollckpakkebden) from khloke.
 Then, follow the Play-to-XBMC install instructions:
